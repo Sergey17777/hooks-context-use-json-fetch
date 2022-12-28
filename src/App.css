@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #363B42;
+}
+
+.App {
+  margin: 50px;
+}
+
+.component {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 50px;
+  border: 1px solid #666666;
+}
+
+.component-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-image: url(./loader.gif);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+}
